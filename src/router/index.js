@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { HashRouter, Switch, Route, Redirect } from 'react-router-dom';
 import asyncComponent from '@/utils/asyncComponent';
 
-import home from "@/pages/home/home";
+import home from "@/pages/home/index";
 const record = asyncComponent(() => import("@/pages/record/index"));
 const helpcenter = asyncComponent(() => import("@/pages/helpcenter/index"));
 const production = asyncComponent(() => import("@/pages/production/index"));

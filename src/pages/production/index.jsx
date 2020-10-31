@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 import { getProData, togSelectPro, editPro } from '@/store/production/action';
 import PropTypes from 'prop-types';
 import PublicHeader from '@/components/header/header';
-import './production.less';
+import './index.less';
 
 class Production extends Component{
   static propTypes = {

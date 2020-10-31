@@ -4,8 +4,8 @@ import Route from './router/';
 import FastClick from 'fastclick';
 import registerServiceWorker from './registerServiceWorker';
 import { AppContainer } from 'react-hot-loader';
-import {Provider} from 'react-redux';
-import store from '@/store/store';
+import { Provider } from 'react-redux';
+import store from '@/store/index';
 import './utils/setRem';
 import './style/base.css';
 
